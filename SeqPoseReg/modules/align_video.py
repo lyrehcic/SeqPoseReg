@@ -157,9 +157,9 @@ def save_alignment_to_json(alignment_path, seq1, seq2, output_file):
     with open(output_file, "w") as f:
         json.dump(alignment_result, f, indent=4)
 
-# 示例用法
+
 if __name__ == "__main__":
-    # 正确加载数据
+
     with open(r"/xx2.json") as f:
         data1 = json.load(f)
     with open(r"/xx1.json") as f:
